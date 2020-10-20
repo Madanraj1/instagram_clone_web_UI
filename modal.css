@@ -1,0 +1,128 @@
+body{
+    background-color:#bdc3c7 ;
+}
+
+
+
+::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+  }
+
+
+.col-8{
+    background-color: #ffffff;
+    /* border: 1px solid black; */
+    border-right: 1px solid rgba(138, 138, 138, 0.65);
+}
+
+.col-4{
+    
+    background-color: #ffffff;
+    
+}
+
+.profile-bar{
+    background-color: #ffffff;
+    height: 12%;
+    width: 104%;
+    border-bottom: 1px solid rgba(138, 138, 138, 0.65);
+}
+
+
+.profile-image{
+    height: 40px;
+    width: 45px;
+    border: 2px solid #929292;
+    border-radius: 50%;
+    margin: 0;
+    margin-top: 7%;
+    margin-left: 4%;
+}
+
+.media-body{
+    margin: 0;
+    margin-top: 8%;
+    margin-left: 5%;
+    color: black;
+}
+.follow-link{
+    font-size: 105%;
+    color: #0095F6;
+}
+.follow-link:hover{
+    color: #0095F6;
+    text-decoration: none;
+}
+
+.caption-comments{
+    background-color: #ffffff;
+    height: 72%;
+    width: 104%;
+    font-size: 80%;
+    border-bottom: 1px solid rgba(138, 138, 138, 0.65);
+
+}
+
+
+
+
+
+.like-share-icon{
+    background-color: #ffffff;
+    height: 10%;
+    width: 104%;
+    border-bottom: 1px solid rgba(138, 138, 138, 0.65);
+
+}
+
+.far{
+    font-size: 150%;
+    color: black;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.likes{
+    margin: 0;
+    margin-left: 4%;
+    margin-top: -3%;
+}
+
+
+.comment-bar{
+    background-color: #ffffff;
+    height: 6%;
+    width: 104%;
+    border: 0;
+}
+
+input{
+    height: 200px;
+    color: yellow;
+    border: 0px;
+}
+
+
+.comment{
+    border: 0;
+  }
+  
+.comment:focus{
+    outline: 0;
+    box-shadow: none;
+}
+
+.post-button{
+    color: #00ADF1;
+    font-weight: 600;
+}
+  
+.post-button:hover{
+    color: rgb(1, 183, 255);
+  }
+  
+.post-button:focus{
+    outline: 0;
+    box-shadow: none;
+  }

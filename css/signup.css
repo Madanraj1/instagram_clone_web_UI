@@ -1,0 +1,256 @@
+body{
+    background-color: #FAFAFA;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+.row{
+    margin: 0;
+    margin-top: 5%;
+}
+
+.login-inner{
+    margin: 0;
+    margin-top: 3%;
+    background-color: #FFFFFF;
+    margin-left: 0%;
+    width: 70%;
+    height: 80%;
+    border: 1px solid #DBDBDB;
+
+}
+
+@media (max-width: 1450px) {
+    .login-inner{
+        margin: 0;
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) { 
+    .login-inner{
+    margin: 0;
+    margin-left: 5%;
+    width: 90%;
+    height: 100%;
+    }
+ }
+
+
+
+
+.signup{
+    margin: 0;
+    margin-top: 5%;
+    margin-left: 0%;
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    width: 70%;
+    height: 12%;
+}
+
+
+@media (max-width: 1450px) {
+    .signup {
+        width: 90%;
+        height: 8%;
+        margin-top: 2%;
+    }
+
+    .img-container {
+        margin-top: -5%;
+       
+       
+    }
+}
+@media (max-width: 768px) {
+    .signup {
+        margin: 0;
+        margin-top: 2%;
+        margin-left: 0%;
+        width: 90%;
+        height: 10%;
+       
+    }
+}
+.content{
+    margin-left: 20%;
+}
+
+.insta{
+    margin-top: 5%;
+    font-family: 'Lobster', cursive;
+    font-size: 280%;
+}
+
+
+input{
+    height: 7%;
+    width: 70%;
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+}
+
+
+input::placeholder{
+    font-size: 75%;
+}
+
+input:focus{
+    outline: 0;
+    box-shadow: none;
+    border: 1px solid #DBDBDB;
+}
+
+.email{
+    margin-top: 0%;
+    margin-left: 15%;
+
+}
+
+.fullname{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+
+.username{
+    margin: 0;
+    margin-top: 2%;
+    margin-left: 15%;
+}
+
+
+.password{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+
+
+
+.login-btn{
+    margin: auto;
+    margin-top: 4%;
+    background-color: #0095F6;
+    color: white;
+    height:7%;
+    width: 70%;
+    margin-left: 15%;
+    
+    
+}
+
+.login-btn:hover{
+    background-color: #0095F6;
+    color: white;
+    text-align: center;
+}
+
+.facebook{
+    margin: 0;
+    margin-left: 25%;
+    font-size: 100%;
+    color: #385185;
+    font-weight: 500;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: #385185;
+}
+
+.forgot{
+    margin: 0;
+    margin-left: 32%;
+    color: #385185;
+    font-size: 80%;
+}
+
+hr{
+    width: 70%;
+}
+.line{
+    display: inline;
+}
+
+.no-account{
+    margin: 0;
+    margin-top: 5%;
+    margin-left: 30%;
+    font-size: 80%;
+}
+
+.signup-link{
+    font-weight: 600;
+    color: #0095F7;
+}
+.signup-link:hover{
+    font-weight: 600;
+    color: #0095F7;
+}
+
+
+.footer-text{
+    margin: 0;
+    margin-left: 15%;
+    margin-top: -3%;
+    color: #385185;
+    font-size: 90%;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.copyright{
+    margin-left: 8%;
+    color: #8E919C;
+}
+
+
+@media (max-width: 768px) { 
+    .img-container {
+        display: none;
+    }
+ }
+
+ 
+ .btn-facebook{
+    margin: auto;
+    background-color: #0095F6;
+    color: white;
+    height:7%;
+    width: 70%;
+    margin-left: 15%;
+ }
+
+ .btn-facebook:hover{
+    background-color: #0095F6;
+    color: white;
+ }
+
+ .signup-text{
+     font-size: 100%;
+     color: #8E8EA0;
+     font-weight: 500;
+     margin: 0;
+     margin-left: 15%;
+ }
+
+ .signup-text-1{
+     margin-left: 20%;
+ }
+
+ .terms{
+     margin: 0;
+     color: #8E8EA0;
+     margin-top: 10%;
+     margin-left: 25%;
+     font-size: 80%;
+ }
+
+ .terms-text{
+     font-weight: 500;
+     cursor: pointer;
+     margin-left: -5%;
+ }
